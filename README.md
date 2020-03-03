@@ -31,6 +31,8 @@ This project was put together using create-react-app (CRA). You will not need to
       Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
+
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge Branch into master (student's Repository).
