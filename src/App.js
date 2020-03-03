@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
+import HeaderContainer from "./components/HeaderComponents/HeaderContainer"
+import PageContainer from "./components/PostPageComponents/PageContainer"
+
+
+import axios from "axios"
+// https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+
 
 function App() {
+
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <div>
+        {/* <HeaderContainer /> */}
+      </div>
+      <div>
+        {/* <PageContainer /> */}
+      </div>
     </div>
   );
 }
