@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
-import HeaderContainer from "./components/HeaderComponents/HeaderContainer"
+// import HeaderContainer from "./components/HeaderComponents/HeaderContainer"
 import PageContainer from "./components/PostPageComponents/PageContainer"
 
 
-import axios from "axios"
+// import axios from "axios"
 // https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
 
 
@@ -16,7 +16,7 @@ function App() {
         {/* <HeaderContainer /> */}
       </div>
       <div>
-        {/* <PageContainer /> */}
+        <PageContainer />
       </div>
     </div>
   );
